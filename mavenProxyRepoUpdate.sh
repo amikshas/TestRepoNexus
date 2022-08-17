@@ -1,0 +1,1 @@
+curl -X PUT -H "Content-Type: application/json" -u admin:admin -d @mavenHostedProxyUpdateTemplate.json 'https://nexusuat.finastra.com/nexus/service/rest/v1/repositories/maven/proxy/Proxying_nexus_azure'
